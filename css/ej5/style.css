@@ -1,0 +1,38 @@
+div{
+    border: solid;
+    border-width: 1px;
+    width:230px;
+}
+
+img{
+    background-color: #808080;
+    width: 290px;
+    color: rgb(219, 216, 216);
+}
+
+h4{
+    padding-left: 10px;
+}
+
+div p{
+    padding-left: 10px;
+    border: none;
+    border-width: 1px;
+}
+
+#lower_part p{
+    border-bottom: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
+
+#lower_part a{
+    padding: 10px;
+}
+/*p{
+    border: solid;
+    border-width: 1px;
+    width:220px;
+    padding-left: 10px;
+}
+*/

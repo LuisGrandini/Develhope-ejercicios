@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    margin: 0;
+    gap: 70px;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
+#green{
+    order: 3;
+    background-color: #BAFFC9;
+}
+
+#yellow{
+    order: 1;
+    background-color: #FFFFBA;
+}
+
+#orange{
+    order: 4;
+    background-color: #FFDFBA;
+    width: 200vw;
+}
+
+#red{
+    order: 2;
+    background-color: #FFB3BA;
+}
+
+#blue{
+    order: 5;
+    background-color: #BAE1FF;
+}
+
+p{
+    padding-left: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li{
+    background-color: white;
+    border: solid 1px white;
+    width: fit-content;
+    padding: 30px;
+
+}

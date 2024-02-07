@@ -1,0 +1,131 @@
+.grid{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px;
+    grid-template-areas: 
+    "zero zero zero zero"
+    "mas menos por dividir"
+    "siete ocho nueve igual"
+    "cuatro cinco seis igual"
+    "uno dos tres igual"
+    "cero punto AC igual";
+}
+
+div{
+    border: 1px solid black;
+}
+
+.zero{
+    grid-area: zero;
+    color: white;
+    background-color: grey;
+    text-align: end;
+    padding: 10px;
+}
+
+.mas{
+    grid-area: mas;
+    text-align: center;
+    padding-top: 10px;
+    background-color: lightblue;
+}
+
+.menos{
+    grid-area: menos;
+    text-align: center;
+    padding-top: 10px;
+    background-color: lightblue;
+}
+
+.por{
+    grid-area: por;
+    text-align: center;
+    padding-top: 10px;
+    background-color: lightblue;
+}
+
+.dividir{
+    grid-area: dividir;
+    text-align: center;
+    padding-top: 10px;
+    background-color: lightblue;
+}
+
+.siete{
+    grid-area: siete;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ocho{
+    grid-area: ocho;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nueve{
+    grid-area: nueve;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cuatro{
+    grid-area: cuatro;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cinco{
+    grid-area: cinco;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.seis{
+    grid-area: seis;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.uno{
+    grid-area: uno;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dos{
+    grid-area: dos;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.tres{
+    grid-area: tres;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cero{
+    grid-area: cero;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.punto{
+    grid-area: punto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.AC{
+    grid-area: AC;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.igual{
+    grid-area: igual;
+    background-color: pink;
+    text-align: center;
+    padding-top: 60px;
+}

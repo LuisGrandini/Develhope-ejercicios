@@ -1,13 +1,18 @@
-div{
+*{
+    box-sizing: border-box;
+}
+
+.card{
     border: solid;
     border-width: 1px;
     width:230px;
 }
 
-img{
+.img-container{
     background-color: #808080;
-    width: 290px;
+    width: 100%;
     color: rgb(219, 216, 216);
+    border-bottom: 1px solid black;
 }
 
 h4{
@@ -29,6 +34,8 @@ div p{
 #lower_part a{
     padding: 10px;
 }
+
+
 /*p{
     border: solid;
     border-width: 1px;

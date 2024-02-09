@@ -1,0 +1,44 @@
+nav{
+    background-color: rgb(99, 96, 96);
+    width: 550px;
+    padding: 6px;
+    border-bottom: white;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 6px;
+}
+
+.active{
+    color: white;
+}
+
+#navbar{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#link{
+    color: grey;
+}
+
+#disable{
+    color: rgb(86, 85, 85);
+}
+
+button{
+    background-color: rgb(99, 96, 96);
+    color: green;
+    border-color: green;
+}
+
+select{
+    background-color: rgb(99, 96, 96);
+    border: none;
+}
+
+@media (max-width: 768px) {
+    
+}

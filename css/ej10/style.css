@@ -1,7 +1,7 @@
 .grid{
     display: grid;
     grid-template-columns: 40px 40px 40px 40px;
-    grid-template-rows: 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px;
     grid-template-areas: 
     "zero zero zero zero"
     "mas menos por dividir"

@@ -1,12 +1,22 @@
-function calculateAverageAge(persons) {
-  let index = 0
-    let suma = persons.reduce((total,persons) => {
-      return total + persons.age
-    },index)
-    let promedio = suma/persons.length
-    return promedio
-  }
+// function calculateAverageAge(persons) {
+//   let index = 0
+//     let suma = persons.reduce((total,persons) => {
+//       return total + persons.age
+//     },index)
+//     let promedio = suma/persons.length
+//     return promedio
+//   }
   
+function calculateAverageAge(persons) {
+  let amountOfPersons = persons.length;
+  let ageSum = 0;
+  ageSum + persons.forEach(persons => {
+    ageSum += persons.age;
+    console.log('ageSum',ageSum);
+  });
+  return ageSum/amountOfPersons
+}
+
   const persons = [
     { name: 'Paul', age: 16 },
     { name: 'George', age: 17 },
@@ -20,7 +30,7 @@ function calculateAverageAge(persons) {
     { name: 'Alice', age: 28 }
   ];
 
-calculateAverageAge(persons)
+
 const average = calculateAverageAge(persons);
 console.log(persons);
 console.log(average);

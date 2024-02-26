@@ -48,10 +48,20 @@ const notes = [
     },
   ];
 
-  function uncompletedNotes(params) {
-    if (notes?.todos?.done = false) {
-      console.log("hi");
-    }
-  }
 
-  uncompletedNotes(notes)
+    function uncompletedNotes(notes) {
+      let incompletos = []
+      notes.forEach(item => {
+          item.todos.forEach(subItem => {
+            if (subItem.done == false) {
+              incompletos.push(subItem);
+            }
+          });
+        });
+        return incompletos;
+        
+    }
+  
+    const notasIncompletas = uncompletedNotes(notes)
+    
+    console.log(notasIncompletas);

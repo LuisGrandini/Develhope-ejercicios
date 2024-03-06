@@ -13,7 +13,7 @@ class Person {
         this._firstName = newFirstName
     }
 
-    get firstName() {
+    get firstNameGetter() {
         return this._firstName
     }
 
@@ -25,8 +25,8 @@ class Person {
         return this._lastName
     }
 
-    set age(newAge) {
-        this.age = newAge
+    set age(x) {
+        this._age = x
     }
 
     get age() {
@@ -34,7 +34,7 @@ class Person {
     }
 
     get fullName() {
-        return this.firstName + " " + this.lastName
+        return this.firstNameGetter + " " + this.lastName
     }
     }
     

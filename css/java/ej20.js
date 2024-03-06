@@ -26,7 +26,7 @@ class Square {
                 let area = objeto.height * objeto.width
                 return area
             } else {
-                let area = objeto.radius * Math.PI
+                let area = objeto.radius**2 * Math.PI
                 return area
             }
         }

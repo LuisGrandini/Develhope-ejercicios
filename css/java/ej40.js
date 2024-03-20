@@ -5,12 +5,12 @@ async function getData() {
     //console.log(parseData);
 
     
-    const filterData = parseData.filter((item) => {
+    // const filterData = parseData.filter((item) => {
         //console.log(item.title == `harum ad aperiam quis`);
-        return item.title == `harum ad aperiam quis`
-    })
+    //     return item.title == `harum ad aperiam quis`
+    // })
 
-    console.log(filterData);
+    console.log(parseData);
 }
 
 getData()

@@ -9,4 +9,10 @@ function savingUser(userObject) {
   localStorage.setItem("user", userString)
 }  
 
-savingUser(user)
+function gettingData() {
+    const newObj = localStorage.getItem("user");
+    const newData = JSON.parse(newObj)
+}
+
+savingUser(user);
+gettingData();

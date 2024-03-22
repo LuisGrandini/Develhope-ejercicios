@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej43</title>
+</head>
+<body>
+    <h2>Loading in Local Storage</h2>
+    <script>
+        const user = {
+        id: 1,
+        name: "John",
+        age: 25,
+    };
+
+       function savingUser(userObject) {
+            const userString = JSON.stringify(userObject);
+            localStorage.setItem("user", userString)
+        }  
+
+        function gettingData() {
+            const valor = localStorage.getItem("user");
+            const objJson = JSON.parse(valor);
+            console.log(valor);
+            console.log(objJson);
+            console.log(objJson.name);
+        }
+
+        savingUser(user);
+        console.log(gettingData());
+
+    </script>
+</body>
+</html>

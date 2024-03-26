@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <div id="container" style="display: flex; align-items: center;">
+      <ul id="ul"></ul>
+    </div>
+  </body>
+</html>
+
+<script>
+  //request link
+  async function getData() {
+    const requestList = await fetch("https://jsonplaceholder.typicode.com/todos");
+    const responseData = await requestList.json();
+    const getContainer = document.getElementById("ul")
+
+    //crear li que tenga data
+    responseData.forEach(item => {
+      const liElements = document.createElement("li");
+      liElements.textContent = item.title;
+
+      //append element
+      getContainer.appendChild(liElements)
+    });
+    
+  }
+
+  getData();
+
+</script>
